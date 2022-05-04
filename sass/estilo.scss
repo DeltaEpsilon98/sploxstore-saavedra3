@@ -1,0 +1,276 @@
+@import "mediaqueries";
+
+$color-fondo: rgb(0, 0, 0);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $color-fondo;
+    font-size: larger;
+}
+
+$color-fondo: rgb(7, 7, 7);
+
+.navbar{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 106px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: $color-fondo;
+}
+
+
+.navbar__logo{
+    border-radius: 100%;
+    border-style: solid;
+    color: black;
+    grid-column: 1/2;
+    display: flex;
+    width:90px;
+    height:90px;
+    align-self: center;
+    animation-name: logo_moov;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    position: relative;
+}
+
+@keyframes logo_moov{
+    0% {transform: rotate(0deg);
+    opacity: 0;}
+    25% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);
+    opacity: 1;}
+}
+
+$redes: ( 
+        compras: blue,
+        servicios:  red,
+        intercambio: purple,
+        contacto: yellow,
+); 
+/*Creamos el bucle para usar los valores del mapa*/
+@each $red, $color in $redes {
+   .navbar__Name--#{$red} {
+       color: $color;
+   }
+}
+
+/*mixin aplicado*/
+
+@mixin color($color) {
+  color: $color;
+}
+
+
+
+
+/*extend aplicado*/
+
+.navbar__Name{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    grid-column: 2/3;
+    align-self: center;
+    font-size: 40px;
+}
+
+.navbar__Name--compras{
+  @extend .navbar__Name;
+  @include color(blue);
+}
+
+
+.navbar__Name--servicios{
+}
+
+
+.navbar__Name--intercambio{
+    
+}
+
+
+.navbar__Name--contacto{
+    
+}
+
+
+.nav{
+    display: flex;
+    grid-column: 6/10;
+    justify-items: flex-end;
+}
+
+.nav-item{
+    cursor: pointer;
+    justify-content: space-evenly;
+    font-size: 170%;
+    margin: auto;
+    position: relative;
+    transition: font-size;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+.nav-item:hover{
+    font-size: 200%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover{
+    color: brown;
+}
+
+.Intro{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"im ti"
+                        "im te";
+    column-gap: 15px;
+    position: relative;
+    top: 3rem;
+}
+
+.Intro__title{
+    display: flex;
+    grid-area: ti;
+    color: pink;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    margin: auto;
+}
+
+.Intro__text{
+    display: flex;
+    grid-area: te;
+    color: wheat;
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: center;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.carousel{
+    grid-area: im;
+    margin: auto;
+}
+
+#footer{
+    display: flex;
+    color: whitesmoke;
+    position: relative;
+    top: 10rem;
+    font-size: 115%;
+}
+
+.Contenido{
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto  auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:"selects img"
+                        "selects img";
+    position: relative;
+    top: 3rem;
+}
+
+.Selectores{
+    display: flex;
+    grid-area: selects;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-select{
+    display: flex;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.Imagenes{
+    display: flex;
+    grid-area: img;
+    margin: auto;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-fluid{
+    height: 20rem;
+    width: 30rem;
+}
+
+.Info{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"Ti Te"
+                        "Tab Form";
+    column-gap: 2%;
+    position: relative;
+    top: 6rem;
+}
+
+.Info__title{
+    color: wheat;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    grid-area: Ti;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.table{
+    color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    grid-area: Tab;
+    border: steelblue;
+}
+
+.Info__text{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    grid-area: Te;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-self: center;
+    margin: 5%;
+}
+
+.Info__form{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: Form;
+    margin: 2.5rem;
+}

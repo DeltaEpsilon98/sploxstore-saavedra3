@@ -1,0 +1,620 @@
+@media screen and (max-width: 575px) {
+  .navbar {
+    position: relative;
+    -ms-grid-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .nav-item {
+    font-size: 120%;
+  }
+  .Intro {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 60px auto;
+        grid-template-rows: 60px auto;
+        grid-template-areas: "im ti" "im te";
+    position: relative;
+  }
+  .Intro__title {
+    position: relative;
+    font-size: 230%;
+  }
+  .Intro__text {
+    font-size: 130%;
+  }
+  .carousel-item {
+    position: relative;
+    height: 18rem;
+    width: 18rem;
+  }
+  #footer {
+    position: relative;
+    font-size: 86%;
+  }
+  .Contenido {
+    top: 1rem;
+  }
+  .img-fluid {
+    height: 45%;
+    width: 45%;
+  }
+  .Info {
+    top: 0.5rem;
+  }
+  .Info__title {
+    font-size: 1.5rem;
+  }
+  .table {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .Info__text {
+    font-size: 1rem;
+  }
+  .Info__form {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    position: relative;
+    -ms-grid-columns: 20% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .nav-item {
+    font-size: 120%;
+  }
+  .Intro {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 19rem auto;
+        grid-template-columns: 19rem auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "im ti" "im te";
+    position: relative;
+  }
+  .Intro__title {
+    position: relative;
+    font-size: 245%;
+  }
+  .Intro__text {
+    font-size: 145%;
+  }
+  .carousel-item {
+    position: relative;
+    height: 19rem;
+    width: 19rem;
+  }
+  #footer {
+    position: relative;
+    font-size: 90%;
+  }
+  .Contenido {
+    top: 1.5rem;
+  }
+  .img-fluid {
+    height: 47%;
+    width: 47%;
+  }
+  .Info {
+    top: 0.5rem;
+  }
+  .Info__title {
+    font-size: 1.7rem;
+  }
+  .table {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .Info__text {
+    font-size: 1.2rem;
+  }
+  .Info__form {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    position: relative;
+    -ms-grid-columns: 16% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 16% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .nav-item {
+    font-size: 120%;
+  }
+  .Intro {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "im ti" "im te";
+    position: relative;
+  }
+  .Intro__title {
+    position: relative;
+    font-size: 255%;
+  }
+  .Intro__text {
+    font-size: 155%;
+  }
+  .carousel-item {
+    position: relative;
+    height: 22rem;
+  }
+  #footer {
+    position: relative;
+    font-size: 95%;
+  }
+  .Contenido {
+    top: 1.8rem;
+  }
+  .img-fluid {
+    height: 50%;
+    width: 50%;
+  }
+  .Info {
+    top: 0.5rem;
+  }
+  .Info__title {
+    font-size: 1.7rem;
+  }
+  .table {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .Info__text {
+    font-size: 1.2rem;
+  }
+  .Info__form {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar {
+    position: relative;
+    -ms-grid-columns: 9% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 9% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .nav-item {
+    font-size: 135%;
+  }
+  .Intro {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "im ti" "im te";
+    position: relative;
+  }
+  .Intro__title {
+    position: relative;
+    font-size: 270%;
+  }
+  .Intro__text {
+    font-size: 170%;
+  }
+  .carousel-item {
+    position: relative;
+    height: 22rem;
+  }
+  #footer {
+    position: relative;
+    font-size: 100%;
+  }
+  .Contenido {
+    top: 2rem;
+  }
+  .img-fluid {
+    height: 50%;
+    width: 45%;
+  }
+  .Info {
+    top: 0.7rem;
+  }
+  .Info__title {
+    font-size: 1.9rem;
+  }
+  .table {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .Info__text {
+    font-size: 1.4rem;
+  }
+  .Info__form {
+    margin: 1rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-size: larger;
+}
+
+.navbar {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 106px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 106px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #070707;
+}
+
+.navbar__logo {
+  border-radius: 100%;
+  border-style: solid;
+  color: black;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90px;
+  height: 90px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-animation-name: logo_moov;
+          animation-name: logo_moov;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  position: relative;
+}
+
+@-webkit-keyframes logo_moov {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes logo_moov {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.navbar__Name--compras {
+  color: blue;
+}
+
+.navbar__Name--servicios {
+  color: red;
+}
+
+.navbar__Name--intercambio {
+  color: purple;
+}
+
+.navbar__Name--contacto {
+  color: yellow;
+}
+
+/*mixin aplicado*/
+/*extend aplicado*/
+.navbar__Name, .navbar__Name--compras {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 40px;
+}
+
+.navbar__Name--compras {
+  color: blue;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-column: 6/10;
+  justify-items: flex-end;
+}
+
+.nav-item {
+  cursor: pointer;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 170%;
+  margin: auto;
+  position: relative;
+  -webkit-transition: font-size;
+  transition: font-size;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.nav-item:hover {
+  font-size: 200%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: brown;
+}
+
+.Intro {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "im ti" "im te";
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  position: relative;
+  top: 3rem;
+}
+
+.Intro__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: ti;
+  color: pink;
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: auto;
+}
+
+.Intro__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: te;
+  color: wheat;
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  justify-self: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-right: auto;
+}
+
+.carousel {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: im;
+  margin: auto;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: whitesmoke;
+  position: relative;
+  top: 10rem;
+  font-size: 115%;
+}
+
+.Contenido {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  -ms-grid-columns: auto  auto;
+      grid-template-columns: auto  auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: "selects img" "selects img";
+  position: relative;
+  top: 3rem;
+}
+
+.Selectores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: selects;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.form-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.Imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: img;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.img-fluid {
+  height: 20rem;
+  width: 30rem;
+}
+
+.Info {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "Ti Te" "Tab Form";
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  position: relative;
+  top: 6rem;
+}
+
+.Info__title {
+  color: wheat;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Ti;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: center;
+  text-decoration: underline;
+  margin: auto;
+}
+
+.table {
+  color: wheat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Tab;
+  border: steelblue;
+}
+
+.Info__text {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Te;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: center;
+  margin: 5%;
+}
+
+.Info__form {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Form;
+  margin: 2.5rem;
+}
+/*# sourceMappingURL=estilo.css.map */

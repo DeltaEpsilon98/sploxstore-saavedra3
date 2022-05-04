@@ -1,0 +1,281 @@
+@media screen and (max-width: 575px) {
+	.navbar{
+        position: relative;
+        grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .nav-item{
+        font-size: 120%;
+    }
+
+    .Intro{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 60px auto;
+        grid-template-areas:"im ti"
+                            "im te";
+        position: relative;
+    }
+
+    .Intro__title{
+        position: relative;
+        font-size: 230%;
+    }
+
+    .Intro__text{
+        font-size: 130%;
+    }
+
+    .carousel-item{
+        position: relative;
+        height: 18rem;
+        width: 18rem;
+    }
+
+    #footer{
+        position: relative;
+        font-size: 86%;
+    }
+
+    .Contenido{
+        top: 1rem;
+    }
+
+    .img-fluid{
+        height: 45%;
+        width: 45%;
+    }
+
+    .Info{
+        top: 0.5rem;
+    }
+
+    .Info__title{
+        font-size: 1.5rem;
+    }
+
+    .table{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Info__text{
+        font-size: 1rem;
+    }
+
+    .Info__form{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        position: relative;
+        grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .nav-item{
+        font-size: 120%;
+    }
+
+    .Intro{
+        position: relative;
+        display: grid;
+        grid-template-columns: 19rem auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:"im ti"
+                            "im te";
+        position: relative;
+    }
+
+    .Intro__title{
+        position: relative;
+        font-size: 245%;
+    }
+
+    .Intro__text{
+        font-size: 145%;
+    }
+
+    .carousel-item{
+        position: relative;
+        height: 19rem;
+        width: 19rem;
+    }
+
+    #footer{
+        position: relative;
+        font-size: 90%;
+    }
+
+    .Contenido{
+        top: 1.5rem;
+    }
+
+    .img-fluid{
+        height: 47%;
+        width: 47%;
+    }
+
+    .Info{
+        top: 0.5rem;
+    }
+
+    .Info__title{
+        font-size: 1.7rem;
+    }
+
+    .table{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .Info__text{
+        font-size: 1.2rem;
+    }
+
+    .Info__form{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar{
+        position: relative;
+        grid-template-columns: 16% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .nav-item{
+        font-size: 120%;
+    }
+
+    .Intro{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:"im ti"
+                            "im te";
+        position: relative;
+    }
+
+    .Intro__title{
+        position: relative;
+        font-size: 255%;
+    }
+
+    .Intro__text{
+        font-size: 155%;
+    }
+
+    .carousel-item{
+        position: relative;
+        height: 22rem;
+    }
+
+    #footer{
+        position: relative;
+        font-size: 95%;
+    }
+
+    .Contenido{
+        top: 1.8rem;
+    }
+
+    .img-fluid{
+        height: 50%;
+        width: 50%;
+    }
+
+    .Info{
+        top: 0.5rem;
+    }
+
+    .Info__title{
+        font-size: 1.7rem;
+    }
+
+    .table{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .Info__text{
+        font-size: 1.2rem;
+    }
+
+    .Info__form{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar{
+        position: relative;
+        grid-template-columns: 9% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .nav-item{
+        font-size: 135%;
+    }
+
+    .Intro{
+        position: relative;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:"im ti"
+                            "im te";
+        position: relative;
+    }
+
+    .Intro__title{
+        position: relative;
+        font-size: 270%;
+    }
+
+    .Intro__text{
+        font-size: 170%;
+    }
+
+    .carousel-item{
+        position: relative;
+        height: 22rem;
+    }
+
+    #footer{
+        position: relative;
+        font-size: 100%;
+    }
+
+    .Contenido{
+        top: 2rem;
+    }
+
+    .img-fluid{
+        height: 50%;
+        width: 45%;
+    }
+
+    .Info{
+        top: 0.7rem;
+    }
+
+    .Info__title{
+        font-size: 1.9rem;
+    }
+
+    .table{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .Info__text{
+        font-size: 1.4rem;
+    }
+
+    .Info__form{
+        margin: 1rem;
+    }
+}
